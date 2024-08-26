@@ -27,7 +27,6 @@ const Login = () => {
         localStorage.setItem("authToken", token);
         console.log("Login successful:", data, token);
       } else {
-        // Handle errors (e.g., invalid credentials)
         setError(data.message || "Login failed. Please try again.");
       }
     } catch (error) {

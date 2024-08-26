@@ -8,6 +8,15 @@
   background: linear-gradient(135deg, #153677, #4e085f);
 }
 
+.login-container form{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 20px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  
+}
 .login-container h2 {
   text-align: center;
   color: #fff;
@@ -47,4 +56,12 @@
 
 .login-container button:hover {
   background-color: #0056b3;
+}
+
+@media (max-width:600px) {
+  .login-container form{
+    width: 80%;
+   
+  
+}
 }

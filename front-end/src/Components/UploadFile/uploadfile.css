@@ -48,3 +48,9 @@ form {
   cursor: pointer;
   border-radius: 40px;
 }
+
+@media (max-width:600px) {
+  .row{
+    flex-direction: column;
+  }
+}

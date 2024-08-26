@@ -39,6 +39,7 @@ function UploadFile() {
       <Navbar />
       <form>
         <label>Upload file(.png,.jpeg,.mp4,.mpeg) only </label>
+        <br /><br />
         <div className="row">
           <input
             className="uploadInput"
